@@ -7,7 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F175FF831C2BCBF300CF5A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF821C2BCBF300CF5A98 /* main.m */; };
+		E98871D0D3F7EDFB4D447482 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 148AA7BFD4063C6F0AEDDF42 /* libPods.a */; };
+		F1256D2A1C2BCD6900D83A81 /* InitailViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1256D291C2BCD6900D83A81 /* InitailViewController.mm */; };
+		F1256D301C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1256D2F1C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.mm */; };
+		F1256D321C2BDAB800D83A81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1256D311C2BDAB800D83A81 /* Foundation.framework */; };
+		F1256D351C2BDFAE00D83A81 /* ROSParamCommandContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1256D341C2BDFAE00D83A81 /* ROSParamCommandContainer.mm */; };
+		F1256D381C2BE11700D83A81 /* ROSParamSectionContainer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1256D371C2BE11700D83A81 /* ROSParamSectionContainer.mm */; };
+		F1256D3B1C2BEF4400D83A81 /* ROSparamCommandTableViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = F1256D3A1C2BEF4400D83A81 /* ROSparamCommandTableViewController.mm */; };
+		F1256D3D1C2BF52500D83A81 /* GameController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1256D3C1C2BF52500D83A81 /* GameController.framework */; };
+		F175FF831C2BCBF300CF5A98 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = F175FF821C2BCBF300CF5A98 /* main.mm */; };
 		F175FF861C2BCBF300CF5A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF851C2BCBF300CF5A98 /* AppDelegate.m */; };
 		F175FF891C2BCBF300CF5A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF881C2BCBF300CF5A98 /* ViewController.m */; };
 		F175FF8C1C2BCBF300CF5A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F175FF8A1C2BCBF300CF5A98 /* Main.storyboard */; };
@@ -35,8 +43,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B94B2FF3345E882867DF14C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		148AA7BFD4063C6F0AEDDF42 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B351FFC5AC1EDA9F559F600 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		F1256D281C2BCD6900D83A81 /* InitailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitailViewController.h; sourceTree = "<group>"; };
+		F1256D291C2BCD6900D83A81 /* InitailViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InitailViewController.mm; sourceTree = "<group>"; };
+		F1256D2E1C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSParamCommandSectionTableViewController.h; sourceTree = "<group>"; };
+		F1256D2F1C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSParamCommandSectionTableViewController.mm; sourceTree = "<group>"; };
+		F1256D311C2BDAB800D83A81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1256D331C2BDFAE00D83A81 /* ROSParamCommandContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSParamCommandContainer.h; sourceTree = "<group>"; };
+		F1256D341C2BDFAE00D83A81 /* ROSParamCommandContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSParamCommandContainer.mm; sourceTree = "<group>"; };
+		F1256D361C2BE11700D83A81 /* ROSParamSectionContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSParamSectionContainer.h; sourceTree = "<group>"; };
+		F1256D371C2BE11700D83A81 /* ROSParamSectionContainer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSParamSectionContainer.mm; sourceTree = "<group>"; };
+		F1256D391C2BEF4300D83A81 /* ROSparamCommandTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROSparamCommandTableViewController.h; sourceTree = "<group>"; };
+		F1256D3A1C2BEF4400D83A81 /* ROSparamCommandTableViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ROSparamCommandTableViewController.mm; sourceTree = "<group>"; };
+		F1256D3C1C2BF52500D83A81 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		F175FF7E1C2BCBF300CF5A98 /* Robot Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F175FF821C2BCBF300CF5A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F175FF821C2BCBF300CF5A98 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		F175FF841C2BCBF300CF5A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F175FF851C2BCBF300CF5A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F175FF871C2BCBF300CF5A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -58,6 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1256D3D1C2BF52500D83A81 /* GameController.framework in Frameworks */,
+				F1256D321C2BDAB800D83A81 /* Foundation.framework in Frameworks */,
+				E98871D0D3F7EDFB4D447482 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +104,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		47D71E899BA5496F5A1A5248 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1256D3C1C2BF52500D83A81 /* GameController.framework */,
+				F1256D311C2BDAB800D83A81 /* Foundation.framework */,
+				148AA7BFD4063C6F0AEDDF42 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9058CC4F74DBAC9C1739E0C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B94B2FF3345E882867DF14C /* Pods.debug.xcconfig */,
+				2B351FFC5AC1EDA9F559F600 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F175FF751C2BCBF300CF5A98 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +130,8 @@
 				F175FF9A1C2BCBF400CF5A98 /* Robot CommandTests */,
 				F175FFA51C2BCBF400CF5A98 /* Robot CommandUITests */,
 				F175FF7F1C2BCBF300CF5A98 /* Products */,
+				9058CC4F74DBAC9C1739E0C6 /* Pods */,
+				47D71E899BA5496F5A1A5248 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,12 +151,22 @@
 				F175FF841C2BCBF300CF5A98 /* AppDelegate.h */,
 				F175FF851C2BCBF300CF5A98 /* AppDelegate.m */,
 				F175FF871C2BCBF300CF5A98 /* ViewController.h */,
+				F1256D361C2BE11700D83A81 /* ROSParamSectionContainer.h */,
+				F1256D371C2BE11700D83A81 /* ROSParamSectionContainer.mm */,
+				F1256D331C2BDFAE00D83A81 /* ROSParamCommandContainer.h */,
+				F1256D341C2BDFAE00D83A81 /* ROSParamCommandContainer.mm */,
 				F175FF881C2BCBF300CF5A98 /* ViewController.m */,
 				F175FF8A1C2BCBF300CF5A98 /* Main.storyboard */,
 				F175FF8D1C2BCBF300CF5A98 /* Assets.xcassets */,
 				F175FF8F1C2BCBF300CF5A98 /* LaunchScreen.storyboard */,
 				F175FF921C2BCBF300CF5A98 /* Info.plist */,
 				F175FF811C2BCBF300CF5A98 /* Supporting Files */,
+				F1256D281C2BCD6900D83A81 /* InitailViewController.h */,
+				F1256D291C2BCD6900D83A81 /* InitailViewController.mm */,
+				F1256D2E1C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.h */,
+				F1256D2F1C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.mm */,
+				F1256D391C2BEF4300D83A81 /* ROSparamCommandTableViewController.h */,
+				F1256D3A1C2BEF4400D83A81 /* ROSparamCommandTableViewController.mm */,
 			);
 			path = "Robot Command";
 			sourceTree = "<group>";
@@ -117,7 +174,7 @@
 		F175FF811C2BCBF300CF5A98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F175FF821C2BCBF300CF5A98 /* main.m */,
+				F175FF821C2BCBF300CF5A98 /* main.mm */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -147,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F175FFAB1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot Command" */;
 			buildPhases = (
+				CD362F8DDBEAA2FD6A9C1482 /* Check Pods Manifest.lock */,
 				F175FF7A1C2BCBF300CF5A98 /* Sources */,
 				F175FF7B1C2BCBF300CF5A98 /* Frameworks */,
 				F175FF7C1C2BCBF300CF5A98 /* Resources */,
+				DA0F5D7E3660EDA5F6106B7F /* Embed Pods Frameworks */,
+				4D23651C3CB2D2F45313B32F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +328,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4D23651C3CB2D2F45313B32F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD362F8DDBEAA2FD6A9C1482 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0F5D7E3660EDA5F6106B7F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F175FF7A1C2BCBF300CF5A98 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -275,7 +383,12 @@
 			files = (
 				F175FF891C2BCBF300CF5A98 /* ViewController.m in Sources */,
 				F175FF861C2BCBF300CF5A98 /* AppDelegate.m in Sources */,
-				F175FF831C2BCBF300CF5A98 /* main.m in Sources */,
+				F1256D3B1C2BEF4400D83A81 /* ROSparamCommandTableViewController.mm in Sources */,
+				F1256D381C2BE11700D83A81 /* ROSParamSectionContainer.mm in Sources */,
+				F1256D351C2BDFAE00D83A81 /* ROSParamCommandContainer.mm in Sources */,
+				F175FF831C2BCBF300CF5A98 /* main.mm in Sources */,
+				F1256D2A1C2BCD6900D83A81 /* InitailViewController.mm in Sources */,
+				F1256D301C2BD8D100D83A81 /* ROSParamCommandSectionTableViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,8 +527,10 @@
 		};
 		F175FFAC1C2BCBF400CF5A98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B94B2FF3345E882867DF14C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Robot Command/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-Command";
@@ -425,8 +540,10 @@
 		};
 		F175FFAD1C2BCBF400CF5A98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B351FFC5AC1EDA9F559F600 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Robot Command/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-Command";
@@ -501,6 +618,7 @@
 				F175FFAD1C2BCBF400CF5A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F175FFAE1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +627,7 @@
 				F175FFB01C2BCBF400CF5A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F175FFB11C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +636,7 @@
 				F175FFB31C2BCBF400CF5A98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,8 @@
+pod "ROSiOS"
+pod "ROSiOS-std_msgs"
+pod "ROSiOS-sensor_msgs"
+pod "ROSiOS-nav_msgs"
+pod "ROSiOS-boost"
+pod "ROSiOS-tf"
+pod "ROSiOS-geometry_msgs"
+pod "ROSiOS-rosgraph_msgs"

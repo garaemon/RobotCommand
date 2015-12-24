@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <ROSiOS/ROSConfigurationUtil.h>
 
 @interface AppDelegate ()
 
@@ -14,9 +15,10 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     // Override point for customization after application launch.
+    [ROSConfigurationUtil insertROSConfigurationAsInitialInterfaceOfWindow:self.window
+                                                              withNodeName:@"robot_control"]; // ROS Node Name
     return YES;
 }
 
