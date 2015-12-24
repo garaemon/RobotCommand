@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F175FF831C2BCBF300CF5A98 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF821C2BCBF300CF5A98 /* main.m */; };
+		F175FF861C2BCBF300CF5A98 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF851C2BCBF300CF5A98 /* AppDelegate.m */; };
+		F175FF891C2BCBF300CF5A98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF881C2BCBF300CF5A98 /* ViewController.m */; };
+		F175FF8C1C2BCBF300CF5A98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F175FF8A1C2BCBF300CF5A98 /* Main.storyboard */; };
+		F175FF8E1C2BCBF300CF5A98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F175FF8D1C2BCBF300CF5A98 /* Assets.xcassets */; };
+		F175FF911C2BCBF300CF5A98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F175FF8F1C2BCBF300CF5A98 /* LaunchScreen.storyboard */; };
+		F175FF9C1C2BCBF400CF5A98 /* Robot_CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FF9B1C2BCBF400CF5A98 /* Robot_CommandTests.m */; };
+		F175FFA71C2BCBF400CF5A98 /* Robot_CommandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F175FFA61C2BCBF400CF5A98 /* Robot_CommandUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F175FF981C2BCBF400CF5A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F175FF761C2BCBF300CF5A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F175FF7D1C2BCBF300CF5A98;
+			remoteInfo = "Robot Command";
+		};
+		F175FFA31C2BCBF400CF5A98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F175FF761C2BCBF300CF5A98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F175FF7D1C2BCBF300CF5A98;
+			remoteInfo = "Robot Command";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F175FF7E1C2BCBF300CF5A98 /* Robot Command.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Robot Command.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175FF821C2BCBF300CF5A98 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F175FF841C2BCBF300CF5A98 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F175FF851C2BCBF300CF5A98 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F175FF871C2BCBF300CF5A98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F175FF881C2BCBF300CF5A98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F175FF8B1C2BCBF300CF5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F175FF8D1C2BCBF300CF5A98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F175FF901C2BCBF300CF5A98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F175FF921C2BCBF300CF5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175FF971C2BCBF400CF5A98 /* Robot CommandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot CommandTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175FF9B1C2BCBF400CF5A98 /* Robot_CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot_CommandTests.m; sourceTree = "<group>"; };
+		F175FF9D1C2BCBF400CF5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F175FFA21C2BCBF400CF5A98 /* Robot CommandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Robot CommandUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F175FFA61C2BCBF400CF5A98 /* Robot_CommandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot_CommandUITests.m; sourceTree = "<group>"; };
+		F175FFA81C2BCBF400CF5A98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F175FF7B1C2BCBF300CF5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FF941C2BCBF400CF5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FF9F1C2BCBF400CF5A98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F175FF751C2BCBF300CF5A98 = {
+			isa = PBXGroup;
+			children = (
+				F175FF801C2BCBF300CF5A98 /* Robot Command */,
+				F175FF9A1C2BCBF400CF5A98 /* Robot CommandTests */,
+				F175FFA51C2BCBF400CF5A98 /* Robot CommandUITests */,
+				F175FF7F1C2BCBF300CF5A98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F175FF7F1C2BCBF300CF5A98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F175FF7E1C2BCBF300CF5A98 /* Robot Command.app */,
+				F175FF971C2BCBF400CF5A98 /* Robot CommandTests.xctest */,
+				F175FFA21C2BCBF400CF5A98 /* Robot CommandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F175FF801C2BCBF300CF5A98 /* Robot Command */ = {
+			isa = PBXGroup;
+			children = (
+				F175FF841C2BCBF300CF5A98 /* AppDelegate.h */,
+				F175FF851C2BCBF300CF5A98 /* AppDelegate.m */,
+				F175FF871C2BCBF300CF5A98 /* ViewController.h */,
+				F175FF881C2BCBF300CF5A98 /* ViewController.m */,
+				F175FF8A1C2BCBF300CF5A98 /* Main.storyboard */,
+				F175FF8D1C2BCBF300CF5A98 /* Assets.xcassets */,
+				F175FF8F1C2BCBF300CF5A98 /* LaunchScreen.storyboard */,
+				F175FF921C2BCBF300CF5A98 /* Info.plist */,
+				F175FF811C2BCBF300CF5A98 /* Supporting Files */,
+			);
+			path = "Robot Command";
+			sourceTree = "<group>";
+		};
+		F175FF811C2BCBF300CF5A98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F175FF821C2BCBF300CF5A98 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F175FF9A1C2BCBF400CF5A98 /* Robot CommandTests */ = {
+			isa = PBXGroup;
+			children = (
+				F175FF9B1C2BCBF400CF5A98 /* Robot_CommandTests.m */,
+				F175FF9D1C2BCBF400CF5A98 /* Info.plist */,
+			);
+			path = "Robot CommandTests";
+			sourceTree = "<group>";
+		};
+		F175FFA51C2BCBF400CF5A98 /* Robot CommandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F175FFA61C2BCBF400CF5A98 /* Robot_CommandUITests.m */,
+				F175FFA81C2BCBF400CF5A98 /* Info.plist */,
+			);
+			path = "Robot CommandUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F175FF7D1C2BCBF300CF5A98 /* Robot Command */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175FFAB1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot Command" */;
+			buildPhases = (
+				F175FF7A1C2BCBF300CF5A98 /* Sources */,
+				F175FF7B1C2BCBF300CF5A98 /* Frameworks */,
+				F175FF7C1C2BCBF300CF5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Robot Command";
+			productName = "Robot Command";
+			productReference = F175FF7E1C2BCBF300CF5A98 /* Robot Command.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F175FF961C2BCBF400CF5A98 /* Robot CommandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175FFAE1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandTests" */;
+			buildPhases = (
+				F175FF931C2BCBF400CF5A98 /* Sources */,
+				F175FF941C2BCBF400CF5A98 /* Frameworks */,
+				F175FF951C2BCBF400CF5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F175FF991C2BCBF400CF5A98 /* PBXTargetDependency */,
+			);
+			name = "Robot CommandTests";
+			productName = "Robot CommandTests";
+			productReference = F175FF971C2BCBF400CF5A98 /* Robot CommandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F175FFA11C2BCBF400CF5A98 /* Robot CommandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F175FFB11C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandUITests" */;
+			buildPhases = (
+				F175FF9E1C2BCBF400CF5A98 /* Sources */,
+				F175FF9F1C2BCBF400CF5A98 /* Frameworks */,
+				F175FFA01C2BCBF400CF5A98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F175FFA41C2BCBF400CF5A98 /* PBXTargetDependency */,
+			);
+			name = "Robot CommandUITests";
+			productName = "Robot CommandUITests";
+			productReference = F175FFA21C2BCBF400CF5A98 /* Robot CommandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F175FF761C2BCBF300CF5A98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ryohei Ueda";
+				TargetAttributes = {
+					F175FF7D1C2BCBF300CF5A98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CNXLEE62RT;
+					};
+					F175FF961C2BCBF400CF5A98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CNXLEE62RT;
+						TestTargetID = F175FF7D1C2BCBF300CF5A98;
+					};
+					F175FFA11C2BCBF400CF5A98 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = CNXLEE62RT;
+						TestTargetID = F175FF7D1C2BCBF300CF5A98;
+					};
+				};
+			};
+			buildConfigurationList = F175FF791C2BCBF300CF5A98 /* Build configuration list for PBXProject "Robot Command" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F175FF751C2BCBF300CF5A98;
+			productRefGroup = F175FF7F1C2BCBF300CF5A98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F175FF7D1C2BCBF300CF5A98 /* Robot Command */,
+				F175FF961C2BCBF400CF5A98 /* Robot CommandTests */,
+				F175FFA11C2BCBF400CF5A98 /* Robot CommandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F175FF7C1C2BCBF300CF5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175FF911C2BCBF300CF5A98 /* LaunchScreen.storyboard in Resources */,
+				F175FF8E1C2BCBF300CF5A98 /* Assets.xcassets in Resources */,
+				F175FF8C1C2BCBF300CF5A98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FF951C2BCBF400CF5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FFA01C2BCBF400CF5A98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F175FF7A1C2BCBF300CF5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175FF891C2BCBF300CF5A98 /* ViewController.m in Sources */,
+				F175FF861C2BCBF300CF5A98 /* AppDelegate.m in Sources */,
+				F175FF831C2BCBF300CF5A98 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FF931C2BCBF400CF5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175FF9C1C2BCBF400CF5A98 /* Robot_CommandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F175FF9E1C2BCBF400CF5A98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F175FFA71C2BCBF400CF5A98 /* Robot_CommandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F175FF991C2BCBF400CF5A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F175FF7D1C2BCBF300CF5A98 /* Robot Command */;
+			targetProxy = F175FF981C2BCBF400CF5A98 /* PBXContainerItemProxy */;
+		};
+		F175FFA41C2BCBF400CF5A98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F175FF7D1C2BCBF300CF5A98 /* Robot Command */;
+			targetProxy = F175FFA31C2BCBF400CF5A98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F175FF8A1C2BCBF300CF5A98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F175FF8B1C2BCBF300CF5A98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F175FF8F1C2BCBF300CF5A98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F175FF901C2BCBF300CF5A98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F175FFA91C2BCBF400CF5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F175FFAA1C2BCBF400CF5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F175FFAC1C2BCBF400CF5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Command/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-Command";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F175FFAD1C2BCBF400CF5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Robot Command/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-Command";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F175FFAF1C2BCBF400CF5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Robot CommandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-CommandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Command.app/Robot Command";
+			};
+			name = Debug;
+		};
+		F175FFB01C2BCBF400CF5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Robot CommandTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-CommandTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Robot Command.app/Robot Command";
+			};
+			name = Release;
+		};
+		F175FFB21C2BCBF400CF5A98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Robot CommandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-CommandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Robot Command";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F175FFB31C2BCBF400CF5A98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Robot CommandUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "garaemon.Robot-CommandUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Robot Command";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F175FF791C2BCBF300CF5A98 /* Build configuration list for PBXProject "Robot Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175FFA91C2BCBF400CF5A98 /* Debug */,
+				F175FFAA1C2BCBF400CF5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F175FFAB1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot Command" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175FFAC1C2BCBF400CF5A98 /* Debug */,
+				F175FFAD1C2BCBF400CF5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F175FFAE1C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175FFAF1C2BCBF400CF5A98 /* Debug */,
+				F175FFB01C2BCBF400CF5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F175FFB11C2BCBF400CF5A98 /* Build configuration list for PBXNativeTarget "Robot CommandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F175FFB21C2BCBF400CF5A98 /* Debug */,
+				F175FFB31C2BCBF400CF5A98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F175FF761C2BCBF300CF5A98 /* Project object */;
+}
